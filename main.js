@@ -1,6 +1,6 @@
+const coursesContainer = document.querySelector('.courses');
 
-
-const curses = [
+const courses = [
     {
      title: `<h1>Asincronismo js</h1>`,
      img: `<img src="./img/asincronismo js.JPG" alt="">`
@@ -45,11 +45,19 @@ const curses = [
      title: `<h1>Responsive design</h1>`,
      img: `<img src="./img/responsive design.JPG" alt="">`
     },
+    {
+     title: `<h1>CSS FLEXBOX</h1>`,
+     img: `<img src="./img/html less flexbox.JPG" alt="">`
+    },
+    {
+     title: `<h1>Js es9 css3 Nodejs</h1>`,
+     img: `<img src="./img/js es9 html css3 nodejs.JPG" alt="">`
+    },
 ]
 
-curses.forEach(curse => {
-    console.log(curse);
+courses.forEach(course => {
+    console.log(course);
     let div = document.createElement('div');
-    document.body.appendChild(div);
-    div.innerHTML = `${curse.title}${curse.img}`;
+    coursesContainer.appendChild(div);
+    div.innerHTML = `${course.title}${course.img}`;
 });
