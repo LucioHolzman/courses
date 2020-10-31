@@ -56,7 +56,6 @@ const courses = [
 ]
 
 courses.forEach(course => {
-    console.log(course);
     let div = document.createElement('div');
     coursesContainer.appendChild(div);
     div.innerHTML = `${course.title}${course.img}`;
