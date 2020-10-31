@@ -51,7 +51,7 @@ const courses = [
     },
     {
      title: `<h1>Js es9 css3 Nodejs</h1>`,
-     img: `<img src="./img/js es9 html css3 nodejs.JPG" alt="">`
+     img: `<img src="./img/Jses9htmlcss3nodejs.JPG" alt="">`
     },
 ]
 
